@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Taco Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/lts_favicon.png" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome To The Little Taco Shop</h1>
+      <nav aria-label="Main Nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#About_LTS">About LTS</a></li>
+          <li><a href="#Our_Menu">Our Menu</a></li>
+          <li><a href="hours.html">Store Hours</a></li>
+          <li><a href="contact.html">Contact Us!</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <img src="img/tacos_close_up_400x260.png" alt="A Taco Meal" loading="lazy" width="400" height="267" title="A Plate of Tacos" />
+        <figcaption>LTS Tacos</figcaption>
+      </figure>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="contactForm">
+        <h3>Our Contact Form</h3>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a message</legend>
+            <p>
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" placeholder="John" autocomplete="on" required autofocus />
+            </p>
+            <p>
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required />
+            </p>
+            <p>
+              <label for="favouriteTaco">Favourite Taco</label>
+              <select name="favouriteTaco" id="favouriteTaco">
+                <option value="crunchy">Crunchy</option>
+                <option value="soft">Soft</option>
+              </select>
+            </p>
+            <p>
+              <label for="message">Your Message</label>
+              <br />
+              <textarea name="message" id="message" placeholder="type your message here" cols="30" rows="10" required></textarea>
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+  </body>
+</html>
