@@ -14,7 +14,9 @@
       <nav aria-label="Main Nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#About_LTS">About LTS</a></li>
+          <li>
+            <a href="#About_LTS">About <abbr title="The Little Taco Shop">LTS</abbr></a>
+          </li>
           <li><a href="#Our_Menu">Our Menu</a></li>
           <li><a href="hours.html">Store Hours</a></li>
           <li><a href="contact.html">Contact Us!</a></li>
@@ -33,8 +35,8 @@
         <section id="aboutLTS">
           <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
           <p>
-            <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <b>love of tacos 🌮 🌮 🌮</b>. We hope of our shop adds a unique and interesting place to our
-            little town.
+            <abbr title="Little Taco Shop">LTS</abbr> was founded in 2022. Our shop was built from a <strong>love of tacos 🌮 🌮 🌮</strong>. We hope of our shop adds a unique and interesting place to
+            our little town.
           </p>
         </section>
         <section id="tacoTrivia">
@@ -58,43 +60,44 @@
       <article id="Our_Menu">
         <h2>Our Menu</h2>
         <table>
+          <caption>
+            <strong>Our Tacos</strong>
+          </caption>
           <thead>
             <tr>
-              <th colspan="3">Our Tacos</th>
+              <th scope="col">Tacos</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
             </tr>
           </thead>
-
-          <tr>
-            <th scope="col">Tacos</th>
-            <th scope="col"><abbr title="Quantity">Qty</abbr></th>
-            <th scope="col">Price</th>
-          </tr>
-          <tr>
-            <th scope="row" rowspan="3">Crunchy</th>
-            <td>1</td>
-            <td>£1.50</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>£2.50</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>£3.25</td>
-          </tr>
-          <tr>
-            <th scope="row" rowspan="3">Soft</th>
-            <td>1</td>
-            <td>£2.00</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>£3.50</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>£4.50</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>£1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>£2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>£3.25</td>
+            </tr>
+            <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>£2.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>£3.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>£4.50</td>
+            </tr>
+          </tbody>
           <tfoot>
             <tr>
               <td colspan="3">We hope you enjoy! 😋</td>
@@ -102,7 +105,9 @@
           </tfoot>
         </table>
       </article>
+
       <br />
+
       <a href="#">Back To Top</a>
     </main>
 
