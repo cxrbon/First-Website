@@ -4,3 +4,4 @@ This is m first website following Dave Grays HTML tutotial, link -->> https://ww
 My next steps are comparing my code to his to see 2 things,
 1. Where I went wrong with the code
 2. How can i add more semantic meaning with code.
+    
